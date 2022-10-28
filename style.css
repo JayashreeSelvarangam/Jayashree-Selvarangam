@@ -1,7 +1,8 @@
+
+
 h1{
-     
      font-family:"lora";
-	 color:brown;
+	 color:black;
 	 font-size:40px;
 }
 body{
@@ -18,7 +19,34 @@ h2{
 p{
 	color:black;
 	font-size:18px;
-	font-family: 'Aclonica', sans-serif;
-	
+	font-family: "Aclonica", sans-serif;	
 }
+header  {
+	background-color:tomato;
+	display:flex;
+	}
+ 
+  header nav a{
+	 margin:30px;
+ }
+ a{
+	 text-decoration:none;
+	 color:white;
+	 font-size:30px;
+ }
+.align{
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-content:center;
+}
+	
+	 
+	 
+ ul{
+	 list-style:none;
+ } 
+  
 
